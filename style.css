@@ -18,12 +18,14 @@ body{
     justify-content: center;
 }
 
-.insgram-wrapper{
+.instagram-wrapper{
     display: flex;
     align-items: center;
     justify-content: start;
     width: 60%;
     height: 100vh;
+    /*justify-content: space-around;*/
+    /*flex-direction: row;*/
 }
 
 .instagram-left{
@@ -31,9 +33,10 @@ body{
     align-items: center;
     justify-content: center;
     width: 50%;
+    /*display: inline-block;*/
 }
-.instagram-phone img{
- height: 50rem;   
+.instagram-left img{
+ height: 50rem; 
 }
 
 .instagram-right{
